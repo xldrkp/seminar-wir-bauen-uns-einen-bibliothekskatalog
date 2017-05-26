@@ -1,0 +1,29 @@
+---
+title: "Title of the Text"
+author:
+  - Firstname Lastnam <mail@jondoe.com>
+date:
+  - \today
+header-includes:
+  - \usepackage{float}
+  - \usepackage[hang]{footmisc}
+  - \usepackage[labelfont=bf,labelsep=colon]{caption}
+  - \usepackage[font={small,sf}]{caption}
+  - \usepackage{csquotes}
+  - \addto\captionsngerman{\renewcommand{\contentsname}{Gliederung}}
+lang: de
+latex_engine: xelatex
+colorlinks: true
+links-as-notes: false
+papersize: A4
+numbersections: false
+geometry: margin=2.5cm
+linestretch: 1.25
+toc: false
+documentclass: scrartcl
+fontsize: 13pt
+output: pdf_document
+bibliography: ./bibtexurl.bib
+csl: ./deutsche-gesellschaft-fuer-psychologie.csl
+nocite: |
+---
